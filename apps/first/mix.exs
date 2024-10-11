@@ -14,7 +14,7 @@ defmodule First.MixProject do
       deps: deps(),
       # generate_destination: "./lib/generated.ex"
       # compilers: [:erlang, :protoc, :elixir, :protoc | Mix.compilers()]
-      # compilers: [:protoc] ++ Mix.compilers()
+      compilers: [:protoc] ++ Mix.compilers()
       # compilers: Mix.compilers() ++ [:protoc]
     ]
   end
