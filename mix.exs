@@ -7,8 +7,7 @@ defmodule UmbrellaTest.MixProject do
       version: "0.1.0",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
-      generate_destination: "./apps/gen/lib/generated.ex",
-      compilers: [:protoc] ++ Mix.compilers()
+      generate_destination: "./apps/gen/lib/generated.ex"
     ]
   end
 

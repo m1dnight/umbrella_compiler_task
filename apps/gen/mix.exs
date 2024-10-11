@@ -11,7 +11,8 @@ defmodule Gen.MixProject do
       lockfile: "../../mix.lock",
       elixir: "~> 1.17",
       start_permanent: Mix.env() == :prod,
-      deps: deps()
+      deps: deps(),
+      compilers: [:protoc] ++ Mix.compilers()
     ]
   end
 
