@@ -12,10 +12,6 @@ defmodule First.MixProject do
       elixir: "~> 1.17",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
-      # generate_destination: "./lib/generated.ex"
-      # compilers: [:erlang, :protoc, :elixir, :protoc | Mix.compilers()]
-      compilers: [:protoc] ++ Mix.compilers()
-      # compilers: Mix.compilers() ++ [:protoc]
     ]
   end
 

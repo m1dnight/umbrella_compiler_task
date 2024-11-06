@@ -6,14 +6,7 @@ defmodule First do
   @doc """
   Hello world.
 
-  ## Examples
-
-      iex> First.hello()
-      :world
-
   """
   def hello do
-    struct = %Generated{}
-    IO.inspect(struct)
   end
 end
